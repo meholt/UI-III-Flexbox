@@ -70,12 +70,12 @@ header {
 	margin-left: 50px;
 	margin-top: 50px;
 	display: flex;
-	justify-content: center;
+	/* justify-content: center; */
   }
   
   header nav {
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
   }
   
   header img {
@@ -104,10 +104,11 @@ button {
 .middleSection {
   border-bottom: 1px solid black;
   margin-left: 70px;
+  margin-right: 400px;
 }
 
 .middlesection img, .leftside {
-  display: inline-block;
+  display: flex;
   margin-right: 110px;
 }
 
