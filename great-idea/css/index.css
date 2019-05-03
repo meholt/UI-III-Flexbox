@@ -65,30 +65,28 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-body {
-  width: 100%;
-}
-
 header {
-  margin-bottom: 20px;
-  margin-left: 70px;
-}
-
-header nav {
-  display: inline-block;
-}
-
-header img {
-  display: inline-block;
-  margin-left: 10px;
-  padding-top: 10px;
-}
-
-header nav a {
-  color: gray;
-  text-decoration: none;
-  margin: 0 70px 0 0;
-}
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+  }
+  
+  header nav {
+	display: flex;
+	align-items: center;
+  }
+  
+  header img {
+	margin-left: 10px;
+  }
+  
+  header nav a {
+	color: gray;
+	text-decoration: none;
+	margin: 0 50px 0 0;
+  }
 
 .leftside {
   margin: 150px 130px 80px 120px;
@@ -128,7 +126,7 @@ button {
 }
 
 .about {
-  margin-right: 70px;
+  margin-right: 170px;
 }
 
 .middle-img {
